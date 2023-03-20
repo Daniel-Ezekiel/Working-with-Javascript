@@ -154,6 +154,11 @@ footer {
   z-index: 1;
 }
 
+.disabled {
+  opacity: 0;
+  transition: all 0.3s;
+}
+
 button {
   cursor: pointer;
 }
@@ -167,6 +172,7 @@ span {
   top: 1rem;
   right: 1rem;
   font-size: 3.5rem;
+  cursor: pointer;
 }
 
 .user--input {
