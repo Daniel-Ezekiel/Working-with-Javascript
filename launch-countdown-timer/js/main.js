@@ -51,3 +51,11 @@ const timerCount = setInterval(() => {
   }
   //   console.log(time);
 }, 1000);
+
+const btnCloseModal = document.querySelector('.btn--close');
+const modal = document.querySelector('.modal');
+const overlay = document.querySelector('.overlay');
+btnCloseModal.addEventListener('click', _ => {
+  modal.classList.add('disabled');
+  overlay.classList.add('disabled');
+});
