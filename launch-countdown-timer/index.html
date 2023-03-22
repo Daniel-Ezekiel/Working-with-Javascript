@@ -47,22 +47,29 @@
 
         <label for="days">
           Days
-          <input type="number" id="days" class="day" />
+          <input type="number" id="days" class="day" min="1" />
         </label>
 
         <label for="hours">
           Hours
-          <input type="number" id="hours" class="day" />
+          <input type="number" id="hours" class="day" min="1" max="24" />
         </label>
 
         <label for="minutes">
           Minutes
-          <input type="number" id="minutes" class="minutes" />
+          <input type="number" id="minutes" class="minutes" min="1" max="60" />
         </label>
 
         <label for="seconds">
           seconds
-          <input type="number" id="seconds" class="day" seconds />
+          <input
+            type="number"
+            id="seconds"
+            class="day"
+            min="1"
+            seconds
+            max="60"
+          />
         </label>
 
         <button type="button" class="btn--user-input">Create timer</button>
