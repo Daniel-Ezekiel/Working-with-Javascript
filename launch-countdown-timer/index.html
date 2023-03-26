@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Your description goes here" />
+    <meta name="keywords" content="one, two, three" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Launch Countdown Timer</title>
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>We're launching soon</h1>
+
+      <div class="timer--container">
+        <div class="timer">
+          <span class="timer__days">--</span>
+        </div>
+        <span class="timer__label label--days">days</span>
+
+        <div class="timer">
+          <span class="timer__hours">--</span>
+        </div>
+        <span class="timer__label label--hours">hours</span>
+
+        <div class="timer">
+          <span class="timer__minutes">--</span>
+        </div>
+        <span class="timer__label label--minutes">minutes</span>
+
+        <div class="timer">
+          <span class="timer__seconds">--</span>
+        </div>
+        <span class="timer__label label--seconds">seconds</span>
+      </div>
+    </main>
+
+    <div class="modal">
+      <span class="btn--close">&times;</span>
+
+      <div class="user--input">
+        <p class="input--instructions">Fill in the following input fields</p>
+
+        <label for="days">
+          Days
+          <input type="number" id="days" class="day" />
+        </label>
+
+        <label for="hours">
+          Hours
+          <input type="number" id="hours" class="day" />
+        </label>
+
+        <label for="minutes">
+          Minutes
+          <input type="number" id="minutes" class="minutes" />
+        </label>
+
+        <label for="seconds">
+          seconds
+          <input type="number" id="seconds" class="day" seconds />
+        </label>
+
+        <button type="button" class="btn--user-input">Create timer</button>
+      </div>
+
+      <span>OR</span>
+
+      <div class="date--select">
+        <p class="input--instructions">Pick any available date</p>
+        <input id="date" type="date" class="date--input" /><button
+          type="button"
+          class="btn--date-input"
+        >
+          Create timer
+        </button>
+      </div>
+
+      <span>OR</span>
+
+      <div class="default">
+        <p class="input--instructions">Use simple generic timer</p>
+        <button type="button" class="btn--generic-input">
+          Use generic timer
+        </button>
+      </div>
+    </div>
+    <div class="overlay"></div>
+
+    <footer>
+      <img src="./img/pattern-hills.svg" alt="bg-img" class="bg--footer" />
+
+      <a href="https://linkedin.com/in/db-ezekiel" class="icon--url">
+        <img src="./img/icon8-linkedin.svg" alt="icon" />
+      </a>
+      <a href="https://github.com/daniel-ezekiel" class="icon--url">
+        <img src="./img/icon8-github.svg" alt="icon" />
+      </a>
+      <a href="https://twitter.com/twitter.com/db_ezekiel" class="icon--url">
+        <img src="./img/icons8-twitter.svg" alt="icon" />
+      </a>
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
