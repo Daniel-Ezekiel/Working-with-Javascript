@@ -165,6 +165,7 @@ footer {
 
 button {
   cursor: pointer;
+  background-color: var(--very-dark-blue);
 }
 
 span {
@@ -221,6 +222,7 @@ label > input {
   border: none;
   border-radius: 1rem 0 0 1rem;
   padding: 1rem;
+  background-color: var(--white);
 }
 
 .btn--date-input {
