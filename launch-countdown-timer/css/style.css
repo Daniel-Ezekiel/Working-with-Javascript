@@ -53,21 +53,19 @@ h1 {
   display: grid;
   place-items: center;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.2rem;
+  gap: 1rem;
 }
 
 .timer--container > div {
+  width: 8rem;
+  height: 8rem;
   border-radius: 0.8rem;
-  min-height: -webkit-fill-available;
-  width: -webkit-fill-available;
   display: grid;
   place-items: center;
   background-color: var(--dark-blue);
 }
 
 .timer {
-  width: 8rem;
-  height: 8rem;
   color: var(--soft-red);
 }
 
