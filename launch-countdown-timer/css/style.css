@@ -66,6 +66,8 @@ h1 {
 }
 
 .timer {
+  width: 8rem;
+  height: 8rem;
   color: var(--soft-red);
 }
 
