@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Your description goes here" />
+    <meta name="keywords" content="one, two, three" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Password Generator</title>
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Password Generator</h1>
+      <div>
+        <input
+          type="text"
+          name="password"
+          id="password"
+          placeholder="generated password shows here"
+          readonly
+        />
+
+        <div class="password--conditions">
+          <div class="input--control">
+            <input type="checkbox" name="uppercase" id="uppercase" />
+            <label for="uppercase">Uppercase</label>
+          </div>
+          <div class="input--control">
+            <input type="checkbox" name="lowercase" id="lowercase" />
+            <label for="lowercase">Lowercase</label>
+          </div>
+          <div class="input--control">
+            <input type="checkbox" name="number" id="number" />
+            <label for="number">Number</label>
+          </div>
+          <div class="input--control">
+            <input type="checkbox" name="special-chars" id="special-chars" />
+            <label for="special-chars">Special characters</label>
+          </div>
+        </div>
+
+        <button class="btn--generate">Generate</button>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
